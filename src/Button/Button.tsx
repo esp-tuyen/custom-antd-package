@@ -1,9 +1,7 @@
-import { Button as ButtonAntd } from "antd";
+import { Button as ButtonAntd, ButtonProps } from "antd";
 import React from "react";
 
-import "./Button.css";
-
-const Button: React.FC = () => {
+const Button: React.FC<ButtonProps> = () => {
   return <ButtonAntd />;
 };
 
